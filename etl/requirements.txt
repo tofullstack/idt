@@ -1,0 +1,7 @@
+requests
+pandas
+python-dotenv
+scipy
+pytest
+# opcional, só para PostgreSQL:
+# psycopg2-binary

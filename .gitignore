@@ -1,0 +1,32 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# segredos e banco local
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# dados brutos e caches (etl/data/cnpj contém dados pessoais de sócios)
+etl/data/*
+!etl/data/uasg_pagina1.csv
+!etl/data/investimento.exemplo.csv
+
+# cópias antigas
+etl_update/
+*.zip
+
+# node / build
+node_modules/
+dist/
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
