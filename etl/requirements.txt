@@ -1,7 +1,9 @@
 requests
 pandas
-python-dotenv
+numpy
 scipy
+matplotlib
+python-dotenv
 pytest
 # opcional, só para PostgreSQL:
 # psycopg2-binary
